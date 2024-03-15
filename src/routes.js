@@ -15,6 +15,7 @@ export function Routes(){
             name="home"
             component={Home}
             options={{
+                tabBarShowLabel: false,
                 headerShown: false,
                 tabBarIcon: ({ focused, size, color }) => {
                     if(focused){
@@ -30,6 +31,7 @@ export function Routes(){
             nome="password"
             component={Passwords}
             options={{
+                tabBarShowLabel: false,
                 headerShown: false,
                 tabBarIcon: ({ focused, size, color }) => {
                     if(focused){
